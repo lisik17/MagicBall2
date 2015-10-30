@@ -15,7 +15,9 @@ android {
         instrumentTest.setRoot('tests')
     }
 }
-
+repositories {
+    mavenCentral()
+}
 dependencies {
     compile 'com.google.android.gms:play-services-ads:8.1.0'
 
