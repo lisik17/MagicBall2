@@ -64,7 +64,7 @@ public class Button extends Actor{
         buttonRate.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                Gdx.net.openURI("https://play.google.com/store/apps/details?id=com.shagunstudios.racinggame");
+                Gdx.net.openURI("https://play.google.com/store/apps/details?id=com.krtubn11.magicball.android");
             }
         });
     }
@@ -88,7 +88,7 @@ public class Button extends Actor{
         buttonLike.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                Gdx.net.openURI("https://play.google.com/store/apps/details?id=com.shagunstudios.racinggame");
+                Gdx.net.openURI("https://www.facebook.com/CrazyBeeGames");
             }
         });
     }
